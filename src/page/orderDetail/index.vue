@@ -56,9 +56,11 @@ export default {
   },
   methods: {
     initOrderDetail() {
+      let username = localStorage.getItem("user");
       this.detail =
-        this.$store.state.Order.shopList[this.$route.query.orderNumber];
-      console.log(this.detail);
+        this.$store.state.User.allUsers[username].shopList[
+          this.$route.query.orderNumber
+        ];
     },
     comfirmTime(time) {
       time = new Date(time);

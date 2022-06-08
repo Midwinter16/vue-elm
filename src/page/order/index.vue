@@ -61,7 +61,6 @@ export default {
       this.orderList = this.$store.state.User.allUsers[username].shopList;
     },
     jumpToShop(id) {
-      console.log(id);
       this.$router.push({
         path: "/home/shop",
         query: {

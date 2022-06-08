@@ -1,10 +1,6 @@
 <template>
   <div>
-    <Header
-      title_left="高仿饿了么"
-      :show_right="isLogin == false ? 'login' : 'user'"
-      :isSign="true"
-    ></Header>
+    <Header title_left="高仿饿了么" show_right="" :isSign="true"></Header>
     <div class="city_main">
       <div class="local_city">
         <div class="desc">

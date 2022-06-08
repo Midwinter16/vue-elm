@@ -81,6 +81,7 @@ export default {
               this.ruleForm.password = "";
               this.ruleForm.username = "";
               this.dialogVisible = true;
+              return;
             }
           } else {
             let username = this.ruleForm.username;

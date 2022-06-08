@@ -232,9 +232,9 @@ export default {
       let shopInfo = this.shopInfo;
       let address = "启达世家";
       let payWay = this.light == 1 ? "在线支付" : "货到付款";
-      let orderNumber = this.$store.state.orderNumber;
       let all_price = this.$store.state.shopCarList.all_price;
       let username = localStorage.getItem("user");
+      let orderNumber = this.$store.state.orderNumber;
       let detail = {
         shopInfo,
         address,
@@ -290,7 +290,6 @@ export default {
     userAddress() {
       let user = localStorage.getItem("user");
       let addressList = this.$store.state.User.allUsers[user].address;
-      console.log(addressList);
       for (let item in addressList) {
         if (addressList[item].isChoose) {
           return addressList[item];
