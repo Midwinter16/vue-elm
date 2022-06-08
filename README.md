@@ -12,7 +12,7 @@
 > 后续会慢慢优化完善整个项目的功能
 
 #### 技术栈
-vue，vue-cli，vue-router，vuex，axios，flex，less，element-ui
+vue，vue-cli，vue-router，vuex，axios，flex，less，element-ui 
 
 #### 尚未完成的部分
 
